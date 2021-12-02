@@ -6,7 +6,12 @@ const app = express()
 app.get('/secure/dinosaurs', (req,res) => {
   let apiKey = undefined;
   if (req.header('Authorization')) {
-    apiKey = req.header('Authorization');
+    let split = req.header('Authorization').split(" ");
+    if (split.length > 1) {
+      if (split[0] === "Bearer") {
+        apiKey = split[1];
+      }
+    }
   } else {
     apiKey = req.query.API_KEY;
   }
@@ -14,7 +19,7 @@ app.get('/secure/dinosaurs', (req,res) => {
   if (apiKey === "ef2a5495fa4c80") {
     res.json(dinosaurs);    
   } else {
-    res.json({error: "Invalid API key"}, 401);
+    res.status(401).json({error: "Invalid API key"});
   }
 });
 
