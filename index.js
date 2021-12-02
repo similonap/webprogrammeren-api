@@ -43,7 +43,7 @@ function handleDinosaurs(req, res) {
 }
 
 function handleDinosaur(req, res) {
-  let id = req.params.id;
+  let id = parseInt(req.params.id);
   let found = dinosaurs.find(dinosaur => dinosaur.id === id);
   if (found) {
     res.json(found);
