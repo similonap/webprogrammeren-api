@@ -1,0 +1,132 @@
+{
+    "dinosaurs": [
+        {
+            "naam": "Velociraptor",
+            "tijdperk": "Krijt",
+            "dieet": "Carnivoor",
+            "regios": [
+                "Asia"
+            ],
+            "hoogte": 3,
+            "lengte": 6,
+            "gewicht": 33
+        },
+        {
+            "naam": "Triceratops",
+            "tijdperk": "Krijt",
+            "dieet": "Herbivoor",
+            "regios": [
+                "Noord Amerika"
+            ],
+            "hoogte": 10,
+            "lengte": 33,
+            "gewicht": 26800
+        },
+        {
+            "naam": "Tyrannosaurus Rex",
+            "tijdperk": "Krijt",
+            "dieet": "Carnivoor",
+            "regios": [
+                "Noord Amerika"
+            ],
+            "hoogte": 13,
+            "lengte": 39,
+            "gewicht": 13310
+        },
+        {
+            "naam": "Stegosaurus",
+            "tijdperk": "Jura",
+            "dieet": "Omnivorous",
+            "regios": [
+                "Noord Amerika",
+                "Europa"
+            ],
+            "hoogte": 14,
+            "lengte": 29,
+            "gewicht": 6000
+        },
+        {
+            "naam": "Iguanodon",
+            "tijdperk": "Krijt",
+            "dieet": "Herbivoor",
+            "regios": [
+                "Noord Amerika",
+                "Europa"
+            ],
+            "hoogte": 16,
+            "lengte": 33,
+            "gewicht": 11000
+        },
+        {
+            "naam": "Brachiosaurus",
+            "tijdperk": "Jura",
+            "dieet": "Omnivorous",
+            "regios": [
+                "Noord Amerika",
+                "Europa"
+            ],
+            "hoogte": 17,
+            "lengte": 30,
+            "gewicht": 15000
+        },
+        {
+            "naam": "Pteranodon",
+            "tijdperk": "Krijt",
+            "dieet": "Herbivoor",
+            "regios": [
+                "Noord Amerika",
+                "Europa"
+            ],
+            "hoogte": 18,
+            "lengte": 30,
+            "gewicht": 5000
+        },
+        {
+            "naam": "Triceratops",
+            "tijdperk": "Jura",
+            "dieet": "Herbivoor",
+            "regios": [
+                "Noord Amerika",
+                "Europa"
+            ],
+            "hoogte": 20,
+            "lengte": 33,
+            "gewicht": 26800
+        },
+        {
+            "naam": "Aachenosaurus",
+            "tijdperk": "Jura",
+            "dieet": "Herbivoor",
+            "regios": [
+                "Europa"
+            ],
+            "hoogte": 21,
+            "lengte": 30,
+            "gewicht": 15000
+        },
+        {
+            "naam": "Aardonyx",
+            "tijdperk": "Jura",
+            "dieet": "Herbivoor",
+            "regios": [
+                "Noord Amerika",
+                "Europa"
+            ],
+            "hoogte": 22,
+            "lengte": 30,
+            "gewicht": 14000
+        },
+        {
+            "naam": "Pakisaurus",
+            "tijdperk": "Jura",
+            "dieet": "Herbivoor",
+            "regios": [
+                "Noord Amerika",
+                "Europa"
+            ],
+            "hoogte": 23,
+            "lengte": 30,
+            "gewicht": 12000
+        }
+    ]
+}
