@@ -15,7 +15,7 @@ app.get('/dinosaurs', (req, res) => {
   handleDinosaurs(req, res);
 });
 
-app.get('dinosaurs/:id', (req, res) => {
+app.get('/dinosaurs/:id', (req, res) => {
   handleDinosaur(req,res);
 });
 
